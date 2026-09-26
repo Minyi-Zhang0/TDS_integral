@@ -1,0 +1,2 @@
+# commond to build the app by pyinstaller
+pyinstaller launcher.py --clean --name "TDS_Integral" --onedir --console --add-data "st_app.py;." --add-data "page_tds_integral.py;." --collect-all streamlit 
